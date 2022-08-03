@@ -1,0 +1,15 @@
+.image-food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.cards-image-food img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1200px) {
+
+}

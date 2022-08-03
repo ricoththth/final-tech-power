@@ -1,0 +1,31 @@
+.container-navbar{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu-navbar a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    margin: 12px;
+    display: inline;
+}
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #009FE3;
+    padding: 0px 32px;
+    border-bottom: 3px solid #0373a4;
+
+}
+.logo-navbar{
+width: 30%;
+}
+@media screen and (max-width: 768px){
+    .menu-navbar a {
+        font-size: 12px;
+    }
+}

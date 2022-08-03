@@ -1,0 +1,78 @@
+
+.formhome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*ESTO ES PARA PROBAR EN ESPERA PARA CONFIRMAR Y ARREGLAR*/
+    background-image: url(https://i.postimg.cc/Qxs41L64/Component-25.jpg) ;
+    background-size: cover;
+    background-position:-1%;
+}
+.form-home{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:6px ;
+    background-color: #009FE3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: fit-content;
+}
+.form-home input{
+    display: block;
+    border: 0ch;
+    outline: none;
+    background: transparent;
+    background-image:none;
+}
+.form-white-section{
+    background-color: aliceblue;
+    margin: 6px;
+    padding-left: 10px;
+}
+.guest-home{
+    padding-bottom: 24px;
+    padding-right: 55px;}
+/*INPUT DE FECHA*/
+::-webkit-inner-spin-button { 
+    display:none;
+  }
+  ::-webkit-calendar-picker-indicator { background-color:white}
+  input[type=date]{
+    font-size:18px;
+  }
+  ::-webkit-datetime-edit-text { color:#555555}
+  ::-webkit-datetime-edit-month-field { color:#555555 }
+  ::-webkit-datetime-edit-day-field { color: #555555; }
+  ::-webkit-datetime-edit-year-field { color:#555555; }
+  ::-webkit-calendar-picker-indicator{ 
+    background-image: none;
+  }
+  /*BUTTON*/
+  .form-button{
+    background-color: #A6DDF5;
+    padding: 14px;
+    margin: 8px;
+  }
+  .btn-cont-form{
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+  }
+
+  /*Hover*/
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+/*.hoverform{
+  display: block;
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+}*/
+.dropdown:hover .hoverform{
+  display: block;
+}
